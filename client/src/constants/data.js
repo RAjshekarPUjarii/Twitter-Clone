@@ -7,9 +7,7 @@ export const sideBarLinks = [
     label: "Notifications",
   },
   { href: "#messages", label: "Messages" },
-  { href: "#lists", label: "Lists" },
   { href: "#bookmarks", label: "Bookmarks" },
-  { href: "#communities", label: "Communities" },
   { href: "#premium", label: "Premium" },
   { href: "#profile", label: "Profile" },
 ];
