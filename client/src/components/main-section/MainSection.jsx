@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar";
+import TweetSection from "./TweetSection";
 
 const MainSection = () => {
   return (
     <section className="text-white border  border-[#2F3336] border-solid   ">
       <Navbar />
-      <h1>Welcome to Twitter Clone</h1>
+      <section className="p-5 mb-2 border-b-[2px] border-b-[#2F3336]">
+        <TweetSection />
+      </section>
       <img
         src="https://pbs.twimg.com/card_img/1758016464085532672/oV-_uljO?format=jpg&name=small"
         alt=""
