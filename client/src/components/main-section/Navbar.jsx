@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Navbar = ({ scrolled }) => {
-  const [activeTab, setActiveTab] = useState("");
+  const [activeTab, setActiveTab] = useState("For-you");
 
   const handleActiveTab = (tabName) => {
     setActiveTab(tabName);

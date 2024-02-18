@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import TweetSection from "./TweetSection";
+import Post from "./Post";
 
 const MainSection = () => {
   return (
@@ -8,6 +9,9 @@ const MainSection = () => {
       <Navbar />
       <section className="p-5 mb-2 border-b-[2px] border-b-[#2F3336]">
         <TweetSection />
+      </section>
+      <section className="p-5 mb-2 border-b border-b-[#2F3336]">
+        <Post />
       </section>
       <img
         src="https://pbs.twimg.com/card_img/1758016464085532672/oV-_uljO?format=jpg&name=small"

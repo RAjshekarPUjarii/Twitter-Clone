@@ -17,7 +17,7 @@ const TweetSection = () => {
           <img
             src="https://pbs.twimg.com/profile_images/1752680550203355136/wFgJZZU9_400x400.jpg"
             alt="profile-img"
-            className="w-12 rounded-[100%]"
+            className="w-16  rounded-[100%]"
           />
         </div>
         <div
@@ -46,7 +46,7 @@ const TweetSection = () => {
               <BsEmojiSmile className="text-[#1d9bf0]" />
             </span>
           </div>
-          <div className="rounded-full  bg-[#1d9bf0] text-white p-2 w-40">
+          <div className="rounded-full  bg-[#1d9bf0] text-white p-1 w-28">
             <a href="#post">
               <div className="text-center  ">
                 <span className="text-xl">Post</span>
