@@ -231,12 +231,7 @@ const MainSection = () => {
       nam, quasi sint voluptate commodi animi eaque voluptatum autem
       exercitationem nostrum unde dolores odit maiores non laboriosam! Officia,
       itaque explicabo aliquam error ipsum et aperiam esse aut, maxime, unde a
-      in quis quisquam. Quos harum molestiae ipsam labore commodi! Tempore
-      corrupti et cumque vitae obcaecati cupiditate aliquam debitis qui magni
-      recusandae optio eaque rerum delectus at sed iusto perspiciatis, nobis
-      amet, repellat quasi quia nemo. Iusto quaerat cum, suscipit ex unde modi
-      quo natus voluptatum quas ipsum! Quisquam, corporis? Eveniet,
-      consequuntur.
+      
     </section>
   );
 };
