@@ -12,8 +12,7 @@ const RightSide = () => {
       autem, tenetur minus impedit modi, vero consectetur, sed quos error ullam
       minima. Nostrum, enim cupiditate adipisci nulla a maxime consectetur
       assumenda suscipit dolorem sequi corporis velit ad ducimus officiis
-      commodi exercitationem quam, aspernatur tempora! Magni eligendi
-      consequuntur sed reprehenderit ipsum, eius facere libero soluta odio?
+      commodi exercitationem quam, aspernatur tempora! Magni
     </div>
   );
 };
