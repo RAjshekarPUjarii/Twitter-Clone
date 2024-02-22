@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import { BiFile, BiImage } from "react-icons/bi";
-import { BsEmojiSmile, BsFillEmojiAngryFill } from "react-icons/bs";
+import { BiImage } from "react-icons/bi";
+import { BsEmojiSmile } from "react-icons/bs";
 
 const TweetSection = () => {
   const [tweet, setTweet] = useState("What's Happening?!");
