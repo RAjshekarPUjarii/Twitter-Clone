@@ -83,7 +83,44 @@ export const tweetSectionData = [
     Name: "rohit wachhe",
     username: "rohit_wachhe",
     time: "1d",
-    content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing ",
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing ",
+  },
+];
+
+export const rightSideData = [
+  {
+    id: "1",
+    img: "https://pbs.twimg.com/media/GG9Rhg_WIAAT6qs?format=jpg&name=medium",
+    Name: "Elon Musk",
+    username: "elon_musk",
+    follow: "Follow",
+  },
+  {
+    id: "2",
+    img: "https://tse1.mm.bing.net/th?id=OIP.gkf3yxICbp-OJc1JfJcq6gHaHB&pid=Api&P=0&h=180",
+    Name: "mark zuckerberg",
+    username: "mark_zuckerberg",
+    follow: "Follow",
+  },
+  {
+    id: "3",
+    img: "https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg",
+    Name: "satya nadella",
+    username: "satya_nadella",
+    follow: "Follow",
+  },
+  {
+    id: "4",
+    img: "https://pbs.twimg.com/profile_images/1715412465742430209/NHMpyEM2_400x400.png",
+    Name: "sundar pichai",
+    username: "sundar",
+    follow: "Follow",
+  },
+  {
+    id: "5",
+    img: "https://pbs.twimg.com/profile_images/1724344976715468800/MasktpKz_400x400.jpg",
+    Name: "hitesh choudhary",
+    username: "hitesh_choudhary",
+    follow: "Follow",
   },
 ];

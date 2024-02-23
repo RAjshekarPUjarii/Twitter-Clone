@@ -13,11 +13,12 @@ const TweetSection = () => {
   return (
     <div className="">
       <div className="flex flex-row gap-4">
-        <div className="">
+        <div>
           <img
             src="https://pbs.twimg.com/profile_images/1752680550203355136/wFgJZZU9_400x400.jpg"
             alt="profile-img"
-            className="w-16  rounded-[100%]"
+            className="w-10 h-10
+             rounded-[100%] "
           />
         </div>
         <div

@@ -46,7 +46,7 @@ const SideBar = () => {
           <img
             src="https://pbs.twimg.com/profile_images/1752680550203355136/wFgJZZU9_400x400.jpg"
             alt="profile-img"
-            className="w-12 rounded-[100%]"
+            className="w-11 h-11 rounded-[100%]"
           />
 
           <div className="text-white flex flex-col ">

@@ -13,7 +13,7 @@ const Home = () => {
       <section className="ml-8 bg-black  flex-1 w-[500px]">
         <MainSection />
       </section>
-      <section className="bg-black sticky top-0 right-0 mr-28 ml-10 h-screen w-[320px] ">
+      <section className="bg-black sticky top-0 right-0 mr-28 ml-4 h-screen w-[360px] pt-5 ">
         <RightSide />
       </section>
     </div>
