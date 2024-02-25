@@ -5,6 +5,7 @@ const Navbar = ({ scrolled }) => {
 
   const handleActiveTab = (tabName) => {
     setActiveTab(tabName);
+    
   };
 
   return (

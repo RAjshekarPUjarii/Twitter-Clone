@@ -17,7 +17,7 @@ const ScrollHandler = () => {
     };
   }, []);
 
-  return <Navbar scrolled={scrolled} />;
+  return <Navbar scrolled={scrolled}  />;
 };
 
 export default ScrollHandler;

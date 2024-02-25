@@ -3,6 +3,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { sideBarLinks } from "../../constants/data";
 import Icons from "./SidebarIcons";
 import { PiDotsThreeBold } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 const SideBar = () => {
   return (
@@ -18,6 +19,7 @@ const SideBar = () => {
         <nav className="text-white">
           {sideBarLinks.map(({ href, label }) => (
             <div key={href} className="w-[14rem] p-1">
+              <Link to={href}>
               <a href={href} className="bg-white">
                 <div className="flex flex-row gap-4 rounded-full hover:bg-[#21232593]  p-2 ">
                   <div className="flex place-self-center">
@@ -28,6 +30,7 @@ const SideBar = () => {
                   </div>
                 </div>
               </a>
+              </Link>
             </div>
           ))}
         </nav>

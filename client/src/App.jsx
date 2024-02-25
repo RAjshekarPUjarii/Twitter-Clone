@@ -1,22 +1,66 @@
 import { Route, Routes } from "react-router-dom";
 import Explore from "./pages/Explore";
-import Home from "./pages/Home";
+import Home from "./pages/SharedLayoutHome";
 import Messages from "./pages/Messages";
-import Communities from "./pages/Communities";
+import Bookmarks from "./pages/Bookmarks";
 import Profile from "./pages/Profile";
 import Premium from "./pages/Premium";
+import Notification from "./pages/Notification";
+import MainSection from "./components/main-section/MainSection";
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/explore" element={<Explore />} />
-      <Route path="/notifications" element={<Notification />} />
-      <Route path="/messages" element={<Messages />} />
-      <Route path="/communities" element={<Communities />} />
-      <Route path="/Premium" element={<Premium />} />
-      <Route path="/Profile" element={<Profile />} />
+      <Route path="/" element={<Home><MainSection/></Home>} />
+      <Route
+        path="/explore"
+        element={
+          <Home>
+            {" "}
+            <Explore />
+          </Home>
+        }
+      />
+      <Route
+        path="/notifications"
+        element={
+          <Home>
+            <Notification />
+          </Home>
+        }
+      />
+      <Route
+        path="/messages"
+        element={
+          <Home>
+            <Messages />
+          </Home>
+        }
+      />
+      <Route
+        path="/bookmarks"
+        element={
+          <Home>
+            <Bookmarks />
+          </Home>
+        }
+      />
+      <Route
+        path="/Premium"
+        element={
+          <Home>
+            <Premium />
+          </Home>
+        }
+      />
+      <Route
+        path="/Profile"
+        element={
+          <Home>
+            <Profile />
+          </Home>
+        }
+      />
     </Routes>
   );
 }

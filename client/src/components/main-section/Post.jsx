@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AiOutlineHeart } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa";
 import { BsBookmark } from "react-icons/bs";
 import { BiRepost } from "react-icons/bi";
 import { tweetSectionData } from "../../constants/data";
+import { useState } from "react";
 
 const Post = () => {
   return (
@@ -13,20 +14,23 @@ const Post = () => {
           key={tweet.id}
           className="flex flex-row gap-4  w-full border-b border-b-[#2F3336]"
         >
-          {console.log(tweet)}
           <div className="flex flex-row ml-4">
             <div className="self-stretch">
               <img
                 src={tweet.img}
                 alt="profile-img"
-                className="w-9  rounded-[100%]"
+                className="w-9  rounded-[100%] cursor-pointer"
               />
             </div>
           </div>
           <div className="flex-wrap">
             <div className="flex flex-row gap-2">
-              <h1 className="text-xl ">{tweet.Name}</h1>
-              <span className="text-gray-600">{tweet.username}</span>
+              <h1 className="text-xl cursor-pointer hover:underline">
+                {tweet.Name}
+              </h1>
+              <span className="text-gray-600 cursor-pointer hover:underline">
+                {tweet.username}
+              </span>
               <span className="text-gray-600">{tweet.time}</span>
             </div>
             <div className="mt-4 flex flex-col flex-wrap">
@@ -46,7 +50,7 @@ const Post = () => {
                 </span>
                 <span className="flex flex-row gap-2 cursor-pointer">
                   <AiOutlineHeart className="text-xl  mt-2 text-red-600" />
-                  <span className="mt-1">34</span>
+                  <span className="mt-1">1</span>
                 </span>
                 <span className="flex flex-row gap-2 cursor-pointer">
                   <BsBookmark className="text-xl  mt-2 " />

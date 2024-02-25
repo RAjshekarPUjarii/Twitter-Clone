@@ -1,11 +1,12 @@
 import React from "react";
 
-const Profile = () => {
+const Bookmarks
+ = () => {
   return (
     <div className="text-white border  border-[#2F3336] border-solid">
-      Profile
+      bookmarks
     </div>
   );
 };
 
-export default Profile;
+export default Bookmarks;

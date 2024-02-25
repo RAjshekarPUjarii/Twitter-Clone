@@ -1,15 +1,15 @@
 // SideBar links
 export const sideBarLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#explore", label: "Explore" },
+  { href: "/", label: "Home" },
+  { href: "/explore", label: "Explore" },
   {
-    href: "#notifications",
+    href: "/notifications",
     label: "Notifications",
   },
-  { href: "#messages", label: "Messages" },
-  { href: "#bookmarks", label: "Bookmarks" },
-  { href: "#premium", label: "Premium" },
-  { href: "#profile", label: "Profile" },
+  { href: "/messages", label: "Messages" },
+  { href: "/bookmarks", label: "Bookmarks" },
+  { href: "/premium", label: "Premium" },
+  { href: "/profile", label: "Profile" },
 ];
 
 export const tweetSectionData = [
