@@ -6,7 +6,7 @@ export const sideBarLinks = [
     href: "/notifications",
     label: "Notifications",
   },
-  { href: "/messages", label: "Messages" },
+
   { href: "/bookmarks", label: "Bookmarks" },
   { href: "/premium", label: "Premium" },
   { href: "/profile", label: "Profile" },
@@ -122,5 +122,38 @@ export const rightSideData = [
     Name: "hitesh choudhary",
     username: "hitesh_choudhary",
     follow: "Follow",
+  },
+];
+
+export const NotificationData = [
+  {
+    id: "1",
+    img: "https://pbs.twimg.com/profile_images/1752680550203355136/wFgJZZU9_400x400.jpg",
+    notificatin: "Pavan liked your tweet",
+  },
+  {
+    id: "2",
+    img: "https://pbs.twimg.com/profile_images/1752680550203355136/wFgJZZU9_400x400.jpg",
+    notificatin: "Sachin liked your tweet",
+  },
+  {
+    id: "3",
+    img: "https://pbs.twimg.com/profile_images/1752680550203355136/wFgJZZU9_400x400.jpg",
+    notificatin: "Rachesh Patil liked your tweet",
+  },
+  {
+    id: "4",
+    img: "https://pbs.twimg.com/profile_images/1752680550203355136/wFgJZZU9_400x400.jpg",
+    notificatin: "Sachin bookmarked your tweet",
+  },
+  {
+    id: "5",
+    img: "https://pbs.twimg.com/profile_images/1752680550203355136/wFgJZZU9_400x400.jpg",
+    notificatin: "Mahadev patil liked your tweet",
+  },
+  {
+    id: "6",
+    img: "https://pbs.twimg.com/profile_images/1752680550203355136/wFgJZZU9_400x400.jpg",
+    notificatin: "Rohit pillai liked your tweet",
   },
 ];

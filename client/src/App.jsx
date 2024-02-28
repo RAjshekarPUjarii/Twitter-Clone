@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Explore from "./pages/Explore";
 import Home from "./pages/SharedLayoutHome";
-import Messages from "./pages/Messages";
+
 import Bookmarks from "./pages/Bookmarks";
 import Profile from "./pages/Profile";
 import Premium from "./pages/Premium";
@@ -10,8 +10,15 @@ import MainSection from "./components/main-section/MainSection";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home><MainSection/></Home>} />
+    <Routes >
+      <Route
+        path="/"
+        element={
+          <Home>
+            <MainSection />
+          </Home>
+        }
+      />
       <Route
         path="/explore"
         element={
@@ -29,14 +36,7 @@ function App() {
           </Home>
         }
       />
-      <Route
-        path="/messages"
-        element={
-          <Home>
-            <Messages />
-          </Home>
-        }
-      />
+
       <Route
         path="/bookmarks"
         element={

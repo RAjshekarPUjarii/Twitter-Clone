@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 
 const Home = ({ children }) => {
   return (
-    <div className="bg-black flex flex-row    h-full ">
+    <div className="bg-black flex flex-row    h-full selection:bg-slate-600 ">
       <section className="sticky top-0 left-0 ml-28 pt-10 h-full">
         <SideBar />
       </section>
