@@ -6,6 +6,7 @@ import { HiOutlineClipboardList } from "react-icons/hi";
 import { PiBookmarkSimple } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
 import { BsPerson } from "react-icons/bs";
+import { IoIosLogOut } from "react-icons/io";
 
 import React from "react";
 import { sideBarLinks } from "../../constants/data";
@@ -18,8 +19,8 @@ const SidebarIcons = (props) => {
     { label: "Messages", icon: <FiMail /> },
     { label: "Bookmarks", icon: <PiBookmarkSimple /> },
 
-    { label: "Premium", icon: <FaXTwitter /> },
     { label: "Profile", icon: <BsPerson /> },
+    { label: "Logout", icon: <IoIosLogOut /> },
   ];
   const matchedIcon = iconsData.find((ele) => ele.label === props.label);
 

@@ -8,8 +8,8 @@ export const sideBarLinks = [
   },
 
   { href: "/bookmarks", label: "Bookmarks" },
-  { href: "/premium", label: "Premium" },
   { href: "/profile", label: "Profile" },
+  { href: "", label: "Logout" },
 ];
 
 export const tweetSectionData = [

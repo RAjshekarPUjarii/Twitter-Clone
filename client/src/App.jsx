@@ -1,16 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import Explore from "./pages/Explore";
 import Home from "./pages/SharedLayoutHome";
-
 import Bookmarks from "./pages/Bookmarks";
 import Profile from "./pages/Profile";
-import Premium from "./pages/Premium";
 import Notification from "./pages/Notification";
 import MainSection from "./components/main-section/MainSection";
 
 function App() {
   return (
-    <Routes >
+    <Routes>
       <Route
         path="/"
         element={
@@ -45,14 +43,7 @@ function App() {
           </Home>
         }
       />
-      <Route
-        path="/Premium"
-        element={
-          <Home>
-            <Premium />
-          </Home>
-        }
-      />
+
       <Route
         path="/Profile"
         element={
