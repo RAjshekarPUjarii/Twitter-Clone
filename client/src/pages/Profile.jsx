@@ -7,6 +7,10 @@ import { BiRepost } from "react-icons/bi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { tweetSectionData } from "../constants/data";
 import profile from "../assets/profile.webp";
+import { IoBalloonOutline } from "react-icons/io5";
+import { CiLocationOn } from "react-icons/ci";
+import { TbLink } from "react-icons/tb";
+import { FaRegCalendarAlt } from "react-icons/fa";
 
 const Profile = () => {
   return (
@@ -17,7 +21,7 @@ const Profile = () => {
         </Link>
         <span className="text-xl flex-1 pl-5">Rajshekar</span>
       </div>
-      <div className="h-[20rem]  border-b border-b-[#2F3336] relative">
+      <div className="h-[22rem]  border-b border-b-[#2F3336] relative">
         <div>
           <div className="w-[39.43rem] bg-cover">
             <img src={profile} alt="" className="w-full h-[10rem]" />
@@ -33,13 +37,41 @@ const Profile = () => {
             Edit Profile
           </span>
         </div>
-        <div className="pl-5">
-          <h1 className="text-xl cursor-pointer hover:underline">
-            Rajshekar Pujari
-          </h1>
-          <p className="text-gray-600 cursor-pointer hover:underline">
-            rajshekar_pujari
-          </p>
+        <div className="pl-5 pb-2 ">
+          <h1 className="text-xl ">Rajshekar Pujari</h1>
+          <p className="text-gray-600 ">rajshekar_pujari</p>
+          <p>🚩​</p>
+        </div>
+        <div
+          className="flex flex-row px-4 gap-3
+         "
+        >
+          <div className="flex flex-row gap-1">
+            <span>
+              <CiLocationOn />
+            </span>
+            <span>Wadi, India</span>
+          </div>
+          <div className="flex flex-row gap-1">
+            <span>
+              <TbLink />{" "}
+            </span>
+            <span>
+              <a href="google.com">google</a>
+            </span>
+          </div>
+          <div className="flex flex-row gap-1">
+            <span>
+              <IoBalloonOutline />
+            </span>
+            <span>Born July 23,2002</span>
+          </div>
+          <div className="flex flex-row gap-1">
+            <span>
+              <FaRegCalendarAlt />
+            </span>
+            <span>Joined November 2020</span>
+          </div>
         </div>
       </div>
       <div>
